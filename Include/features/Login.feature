@@ -1,7 +1,9 @@
 Feature: Login ke DemoQA
+  Sebagai pengguna
+
 
   Scenario: Login berhasil dengan kredensial valid
-    Given saya membuka browser dan menuju "https://demoqa.com/login"
-    When saya mengisi username "Dcba@123" dan password "Dcba@123"
-    And saya menekan tombol login
-    Then saya melihat username "Dcba@123" tampil di halaman profil
+  Given User berada di halaman login DemoQA
+  When User mengisi username "Dcba@123" dan password "Dcba@123"
+  When User menekan tombol Login
+  Then User diarahkan ke halaman Profile "Dcba@123"

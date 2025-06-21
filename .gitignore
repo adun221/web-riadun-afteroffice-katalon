@@ -1,3 +1,4 @@
+
 .gradle
 
 bin
@@ -13,4 +14,8 @@ build
 
 .classpath
 
-.project
+.project 
+
+.cache
+
+.DS_Store
